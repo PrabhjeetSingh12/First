@@ -15,7 +15,8 @@ public class PallindromeNumber {
 	}
 
 	public static void main(String[] args) {
-		int x = 121;
+		int x = 12121;
+
 		PallindromeNumber solver = new PallindromeNumber();
 		boolean result = solver.isPallindrome(x);
 		System.out.println(result);
